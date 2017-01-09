@@ -15,8 +15,8 @@ public class Board {
 		for(int i=0;i<nombreColonnes;i++){
 			for(int j=0;j<nombreLignes;j++){
 				String couleur = new String();
-				if((i+j)%2==0){couleur = "Blanc"; }
-				else{couleur = "Noir";}
+				if((i+j)%2==0){couleur = Colour.BLANC.toString() ; }
+				else{couleur = Colour.NOIR.toString();}
 				Case caseAjout = new Case(j,i, couleur);
 				board.add(caseAjout);
 			}

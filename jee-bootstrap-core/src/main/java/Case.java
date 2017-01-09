@@ -4,6 +4,7 @@ public class Case {
 		private int numColonne;
 		private String Couleur ;
 		
+		
 		public String getCouleur() {
 			return Couleur;
 		}
